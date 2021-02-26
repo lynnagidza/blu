@@ -8,7 +8,7 @@ exit();
 ?>
 
 <body>
-<?php 
+<?php
 include_once 'header.php';
 include_once 'config.php';
 ?>
@@ -22,9 +22,9 @@ include_once 'config.php';
 <div class="row">
 <div class="col-lg-3 col-sm-3 col-md-3 col-xs-20 admin-menu-list">
 <ul>
-<li><a onclick=load("user-apply.php")>Apply Now</a></li>
+<!-- <li><a onclick=load("user-apply.php")>Apply Now</a></li>
 <li><a onclick=load("profile.php")>Profile Settings</a></li>
-<li><a onclick=load("update-password.php")>Update Password</a></li>
+<li><a onclick=load("update-password.php")>Update Password</a></li> -->
 <li><a onclick=load("my-hires.php")>My Hires</a></li>
 <li><a onclick=load("new-reviews.php")>Add Review</a></li>
 <li><a onclick=load("my-reviews.php")>My Reviews</a></li>

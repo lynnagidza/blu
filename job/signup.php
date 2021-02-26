@@ -38,11 +38,11 @@ session_unset($_SESSION['msg']);
 ?>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 <div class="form-group">
-<label class="control-label">Your name: </label><input type="text" name="name" class="form-control"/></div>
+<label class="control-label">Full name: </label><input type="text" name="name" class="form-control"/></div>
 <div class="form-group">
-<label class="control-label">mobile number: </label><input type="text" name="mobile" class="form-control"/></div>
+<label class="control-label">Mobile number: </label><input type="text" name="mobile" class="form-control"/></div>
 <div class="form-group">
-<label class="control-label">Email ID: </label><input type="email" name="email" class="form-control"/></div>
+<label class="control-label">Email address: </label><input type="email" name="email" class="form-control"/></div>
 <div class="form-group">
 <label class="control-label">Username: </label><input type="text" name="username" class="form-control"/></div>
 <div class="form-group">
