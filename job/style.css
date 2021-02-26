@@ -1,0 +1,538 @@
+header{
+padding-left:100px;
+margin-bottom:10px;
+}
+
+body{
+font-family: "Montserrat", sans-serif;
+}
+
+.thm-btn{
+padding-left:17px;
+padding-right:17px;
+padding-top:10px;
+padding-bottom:10px;
+background-color: #42b7e8;
+text-decoration:none;
+color:#FFFFFF;
+text-transform: uppercase;
+font-weight:bold;
+border-radius:6px;
+}
+
+.thm-btn:hover{
+background-color: #FFFFFF;
+text-decoration:none;
+border: 2px solid #42b7e8;
+color: #42b7e8;
+}
+
+.thm-inverse{
+color: #42b7e8;
+padding-left:17px;
+padding-right:17px;
+padding-top:10px;
+padding-bottom:10px;
+text-decoration:none;
+border: 2px solid #42b7e8;
+text-transform: uppercase;
+font-weight:bold;
+border-radius:6px;
+}
+
+.thm-inverse:hover{
+background-color: #42b7e8;
+text-decoration:none;
+color:#FFFFFF;
+}
+
+header .logo img{
+margin-right:20px;
+}
+
+header .logo h1{
+font-family: "Open Sans", serif;
+display:inline-block;
+margin-right:5px;
+margin-top:25px;
+}
+
+header .nav-menu{
+padding-top:45px;
+}
+
+header .nav-menu .dropdown{
+display:inline-block;
+position:relative;
+margin-left:10px;
+}
+
+.nav-menu .dropdown .dropbtn{
+float:right;
+background-color:#FFFFFF;
+border:none;
+border-bottom: 2px solid white;
+color:#000000;
+font-size:12px;
+margin-bottom:20px;
+}
+
+.nav-menu .active .dropbtn{
+ border-bottom: 2px solid #42b7e8;
+}
+
+
+header .nav-menu .dropdown .dropbtn:hover{
+border-bottom: 2px solid #42b7e8;
+}
+
+.nav-menu .dropdown span{
+color:#CCCCCC;
+font-size:12px;
+margin-left:5px;
+}
+
+header .nav-menu .dropdown .dropbtn:hover span{
+color: #42b7e8;
+}
+
+
+.nav-menu .dropdown .dropdown-content{
+position:absolute;
+background-color:#FFFFFF;
+top:30px;
+z-index:21;
+}
+
+.nav-menu .dropdown .dropdown-content a{
+display:none;
+border:1px solid #FFFFFF;
+padding:10px;
+width:150px;
+text-decoration:none;
+font-weight:bold;
+color:#000000;
+}
+
+.nav-menu .dropdown:hover .dropdown-content a{
+display:block;
+
+}
+.nav-menu .dropdown .dropdown-content a:hover{
+color: #42b7e8;
+margin-left:10px;
+}
+
+header .signin{
+padding-top:45px;
+}
+
+header .signin a{
+padding-left:17px;
+padding-right:17px;
+padding-top:10px;
+padding-bottom:10px;
+background-color: #42b7e8;
+color:#FFFFFF;
+text-transform: uppercase;
+border-radius:3px;
+}
+
+header .signin a:hover{
+background-color: #FFFFFF;
+text-decoration:none;
+border: 2px solid #42b7e8;
+color: #42b7e8;
+}
+
+
+
+.carousel .carousel-inner .item{
+background-color: #000000;
+}
+
+.carousel .carousel-inner .item img{
+height:500px;
+width:100%;
+opacity: 0.6;
+}
+
+.carousel .carousel-content{
+z-index:20;
+ position: absolute;
+  bottom: 30%;
+  left: 25%;
+}
+
+.carousel .carousel-content h1{
+font-size: 60px;
+color:#fff;
+  text-shadow: 0 1px 2px rgba(f,f,f,.6);
+  margin-bottom: 35px;
+}
+
+.carousel .carousel-content p{
+color:#fff;
+font-size: 25px;
+text-align: center;
+  text-shadow: 0 1px 2px rgba(f,f,f,.6);
+  margin-bottom: 15px;
+}
+
+.slider-btn {
+	border-radius: 30px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0);
+	transition: all .3s ease;
+}
+.slider-btn:hover  {
+	background:#42b7e8;
+	border-color:#42b7e8;
+	color: #fff;
+}
+.slider-btn:active,
+.slider-btn:focus {
+	background-color: #fff;
+	border-color: #42b7e8;
+	color: #42b7e8;
+}
+
+.category{
+background-color: #f5f5f5;
+padding-top:50px;
+padding-bottom: 50px;
+}
+
+.category h1{
+padding:10px;
+font-family: "Montserrat", sans-serif;
+margin-bottom: 45px;
+font-size:42px;
+text-align: center;
+color: #646464;
+}
+
+.category-content{
+padding:20px;
+text-align:center;
+margin-bottom:35px;
+}
+
+.category-content span{
+font-size:64px;
+color: #646464;
+margin-bottom:20px;
+}
+
+.category-content a{
+font-size:20px;
+font-weight:bold;
+color:#000000;
+text-decoration:none;
+}
+
+.category-content a:hover{
+text-decoration:none;
+color:#42b7e8;
+}
+
+.recent{
+padding-top:50px;
+padding-bottom: 50px;
+}
+
+.recent h1{
+margin-bottom:30px;
+}
+
+.recent-jobs{
+padding-top:20px;
+padding-bottom:20px;
+padding-left: 10px;
+text-align:center;
+border:1px solid #f5f5f5;
+}
+
+.recent-jobs:hover{
+background-color: #f5f5f5;
+border-left: 2px solid #42b7e8;
+}
+
+.rj-title{
+text-transform: capitalize;
+}
+
+.rj-location h4,span {
+display: inline-block
+}
+
+.rj-posted h4,span{
+display:inline-block
+}
+
+.top-emp{
+margin-bottom:30px;
+}
+
+.top-employers {
+text-align:center;
+}
+
+
+.body-section{
+padding:10px;
+border: 1px solid  #f4f4f4;
+background-color: #f4f4f4;
+}
+
+
+.login-banner{
+background-image:url(images/keyboard.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+padding:30px;
+z-index:1;
+text-align:center;
+}
+
+.login-banner h2{
+color: white;
+z-index:2;
+font-size:64px;
+font-family:"Montserrat", sans-serif;
+}
+
+.login-portal{
+background-image:url(images/final-background.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position: inherit;
+padding: 20px;
+color: white;
+}
+
+.login-inner{
+padding:50px;
+border-radius:5px;
+color: white;
+}
+
+.login-inner .control-label{
+color:white;
+}
+
+.login-inner .form-group .form-control{
+background-color: #fff;
+border-radius: 4px;
+font-weight:bold;
+opacity:0.6;
+}
+
+.login-inner .form-group input[type=submit]:hover{
+color:  #42b7e8;
+border: 3px solid #42b7e8;
+}
+
+.signup-banner{
+background-image:url(images/keyboard.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+padding:30px;
+z-index:1;
+text-align:center;
+}
+
+.signup-banner h2{
+color: white;
+z-index:2;
+font-size:64px;
+font-family:"Montserrat", sans-serif;
+}
+
+.signup-portal{
+background-image:url(images/grey.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position: inherit;
+padding: 10px;
+color: white;
+}
+
+.signup-inner{
+padding:50px;
+border-radius:5px;
+color: white;
+}
+
+.signup-inner .control-label{
+color:white;
+}
+
+.signup-inner .form-group .form-control{
+background-color: #fff;
+border-radius: 4px;
+font-weight:bold;
+opacity:0.6;
+}
+
+.signup-inner .form-group input[type=submit]:hover{
+color:  #42b7e8;
+border: 3px solid #42b7e8;
+}
+
+
+.admin-banner{
+background-image:url(images/grey.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position: inherit;
+padding: 20px;
+color: white;
+text-align:center;
+}
+
+.admin-section{
+padding:30px;
+}
+
+.admin-menu-list{
+background-color:#f5f5f5; 
+padding:80px;
+}
+
+.admin-menu-list ul{
+list-style-type:circle;
+}
+
+.admin-menu-list li a{
+text-decoration:none;
+color:black;
+}
+
+.admin-menu-list li a:hover{
+color: #42b7e8;
+}
+
+.admin-menu-list li a:active{
+color: #42b7f8;
+}
+
+.admin-menu-list,.dashboard{
+display:inline-block;
+}
+
+.dashboard{
+padding:10px;
+}
+
+.dashboard-pannel{
+border: 1px solid  #f4f4f4;
+margin:10px;
+-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	   box-shadow: 0 10px 6px -6px #777;
+padding-top: 10px;
+}
+
+.dashboard-pannel .pannel-content{
+text-align:center;
+font-size:60px;
+}
+
+
+.pannel-footer{
+text-align:center;
+margin-bottom:0px;
+}
+
+.pannel-footer p{
+padding-top:2px;
+margin-bottom:0px;
+color: white;
+}
+
+
+.footer-top{
+padding-top:30px;
+padding-bottom:20px;
+background-color: #242424;
+padding-left:40px;
+padding-right:40px;
+}
+
+.footer-about-us p,h3{
+margin-bottom:20px;
+}
+
+
+.footer-about-us h3,.footer-quick-links h3,.footer-subscribe h3,.footer-address h3{
+color:white;
+}
+
+.footer-about-us p,.footer-quick-links p,.footer-subscribe p,.footer-address p {
+color: #829091;
+}
+
+.footer-quick-links ul {
+list-style-type:none;
+}
+
+.footer-quick-links li a{
+color: #829091;
+text-decoration:none;
+font-width:bold;
+}
+
+.footer-quick-links li a:hover{
+color: #42b7e8;
+}
+
+
+.footer-subscribe input[type=email]{
+background-color: #646464;
+color:  #829091;
+border:1px solid  #829091;
+border-right:none;
+padding-top:2px;
+padding-bottom:3px;
+padding-right:3px;
+padding-left:3px;
+border-radius: 3px 0px 0px 3px;
+}
+
+.footer-subscribe button{
+padding-right:9px;
+padding-left:9px;
+padding-top:4px;
+padding-bottom:8px;
+background-color:  #42b7e8;
+color:#FFFFFF;
+border-radius: 0px 3px 3px 0px;
+border:1px solid #42b7e8;
+}
+
+.footer-subscribe button:hover{
+color:  #42b7e8;
+background-color:#FFFFFF;
+border: 1px solid #fff;
+}
+
+.footer-subscribe p{
+color:  #829091;
+}
+
+.footer-bottom{
+color: #829091;
+padding-left:20px;
+padding-top:10px;
+background-color:black;
+}
+
+.footer-bottom span{
+float:right;
+color: #829091;
+}
